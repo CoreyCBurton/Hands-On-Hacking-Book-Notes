@@ -1,6 +1,6 @@
 # Penetration-Testing-Labs-And-Information
 # Introduction 
-Kali Linux is an amazing Ubuntu fork, it has plenty of tools to learn how to pen test. As a student learning infosec, it is crucial that I learn how software and netwroks can be vulnerable. This repo is going to be based on the amazing book **Penetration testing a Hands-on introduction to Hacking by Georgia Weidman**. The downside of this book is that it is made in 2014 but it still has the general idea and up-to-date concepts. Let the pen testing begin.
+To get a hands on introduction to pentesting, I am going to read through the book **Hands on Hacking: Become an Expert at Next Gen Penetration Testing and Purple Teaming** and follow through with the labs. This repo is going to document everything I have done.
 
 # Goals for this repo
 - Learn Kali linux 
