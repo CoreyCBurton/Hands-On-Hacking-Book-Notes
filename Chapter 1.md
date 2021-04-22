@@ -1,0 +1,27 @@
+# Chapter 1: Hacking a Business Case
+
+# Blue, Red, and Purple Teams
+
+> Blue team
+* known as white hat defenders; They analyze security 
+
+* analyse information systems, identify security flaws, and make sure all security methods continue to be effective
+
+* IT help-desk, system patches, back up and restore staff, basic security tool managers, and etc.
+
+* Goal is to see where the attack is taking place and to stop it 
+
+> Red team 
+* Independent groups of professionals who challange an organization to improve effectivness 
+
+* A specific objective is set by the red team and they try to achieve it. 
+
+* The red team then communicates with the blue team to talk about how to make things secure.
+
+* A pen tester is not apart of red team; They work alone and dont expect to do an in depth attack like the red team does 
+
+* Big companies and U.S. governments use red teams while small buisness owners use a pen tester who often on an annual bases checks your network.
+
+* There are obstacles on why companies cant take action on pen tester or red team reports
+
+1. **Inadequate training** Blue teams often don't know how to act upon the reports due to a lack of skills outside of common taks. Upgrading firewalls, updating software
