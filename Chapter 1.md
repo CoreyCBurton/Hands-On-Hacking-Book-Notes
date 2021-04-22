@@ -33,4 +33,43 @@
 4. **Lack of Incentives** Motivation for staff to go through long penetration reports
 
 > Purple team 
-* 
+* Team of exports who take on the role of both red and blue team 
+
+* They anticipate attacks by addressing them before they can be exploited
+
+* Explain social engineering more in depth than other teams
+
+* Social engineering, pentesting, vulnerability management, patching, etc.
+
+# Hacking is apart of a Company's Immune System
+* Companies need to know their weak spots. 
+
+* Breaking into your own home is like a company finding its vulnerabilies; It can be done. 
+
+* Small buissnesses cant survive cyber security attacks
+
+* The purple team is an excellent team to communicate policies; Human error is common for breaches to happen so they need to be educated.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
