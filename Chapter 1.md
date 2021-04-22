@@ -24,4 +24,13 @@
 
 * There are obstacles on why companies cant take action on pen tester or red team reports
 
-1. **Inadequate training** Blue teams often don't know how to act upon the reports due to a lack of skills outside of common taks. Upgrading firewalls, updating software
+1. **Inadequate training** Blue teams often don't know how to act upon the reports due to a lack of skills outside of common taks. Upgrading firewalls, updating software, and changing passwords.
+
+2. **Lack of resources** Many corporations say that their cybersecurity teams are understaffed; More people are needed 
+
+3. **Limited Time** It is hard for companies to redirect staff resources to repatch vulnerabilities
+
+4. **Lack of Incentives** Motivation for staff to go through long penetration reports
+
+> Purple team 
+* 
