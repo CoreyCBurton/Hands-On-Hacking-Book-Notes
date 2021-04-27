@@ -50,6 +50,15 @@ Files sent with **HTTP** are sent in plain text while files with **HTTPS** are e
 
 * You can decrypt folder but it only shows the hacker that there is sensitive data there
 
+# Password managers 
+* [1password](https://1password.com/)
+
+*[keepassx](https://www.keepassx.org/)
+
+# Email 
+* It is important to send encrypted emails espically if it is a lab report to one of your clients. 
+
+* Advanced Encryption standard (AES) 
 
 
 
