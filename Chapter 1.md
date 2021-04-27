@@ -1,8 +1,6 @@
 # Chapter 1: Hacking a Business Case
 
-# Blue, Red, and Purple Teams
-
-> Blue team
+# Blue team
 * known as white hat defenders; They analyze security 
 
 * analyse information systems, identify security flaws, and make sure all security methods continue to be effective
@@ -11,7 +9,7 @@
 
 * Goal is to see where the attack is taking place and to stop it 
 
-> Red team 
+# Red team 
 * Independent groups of professionals who challange an organization to improve effectivness 
 
 * A specific objective is set by the red team and they try to achieve it. 
@@ -32,7 +30,7 @@
 
 4. **Lack of Incentives** Motivation for staff to go through long penetration reports
 
-> Purple team 
+# Purple team 
 * Team of exports who take on the role of both red and blue team 
 
 * They anticipate attacks by addressing them before they can be exploited
