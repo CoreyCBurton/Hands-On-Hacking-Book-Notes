@@ -41,7 +41,14 @@ sha256sum <PathToFile>
 ```
 Files sent with **HTTP** are sent in plain text while files with **HTTPS** are encrypted.
 
+# Disk Encryption 
+* It is important to have your files encrypted
 
+* On macOS, filevault is used and it is important that it is turned 
+
+* It is impossilbe to have your whole SSD encrypted unless it is established at start up
+
+* You can decrypt folder but it only shows the hacker that there is sensitive data there
 
 
 
