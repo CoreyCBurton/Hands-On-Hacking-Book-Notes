@@ -53,13 +53,34 @@ Files sent with **HTTP** are sent in plain text while files with **HTTPS** are e
 # Password managers 
 * [1password](https://1password.com/)
 
-*[keepassx](https://www.keepassx.org/)
+* [keepassx](https://www.keepassx.org/)
 
 # Email 
 * It is important to send encrypted emails espically if it is a lab report to one of your clients. 
 
 * Advanced Encryption standard (AES) 
 
+# Setting up Mail server
+
+* Downloaded the [iso file](www.hackerhousebook.com/hh-mailserver-v1-i386.hybrid.iso) provided in the book which is the mail server.Bluefish1091!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Also downloaded [book file](http://ww.hackerhousebook.com/hh-booklab-v1-i386.hybrid.iso) provided in the book 
 
 
 
