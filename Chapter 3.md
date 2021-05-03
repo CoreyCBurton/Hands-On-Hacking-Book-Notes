@@ -62,7 +62,7 @@ Files sent with **HTTP** are sent in plain text while files with **HTTPS** are e
 
 # Setting up Mail server
 
-* Downloaded the [iso file](www.hackerhousebook.com/hh-mailserver-v1-i386.hybrid.iso) provided in the book which is the mail server.Bluefish1091!
+* Downloaded the [iso file](www.hackerhousebook.com/hh-mailserver-v1-i386.hybrid.iso) provided in the book which is the mail 
 
 
 
