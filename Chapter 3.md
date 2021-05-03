@@ -75,6 +75,23 @@ Files sent with **HTTP** are sent in plain text while files with **HTTPS** are e
 
 * In some VMs the virtual CD is mounted to ``/media/cdrom0``
 
+# Testing Virtual Environment 
+* The mail server ip is ``192.168.1.108`` 
+
+* Using Kali Linux, I can ping the mail server using ``ping <TargetIP>`` and receive some feedback. The image below shows that Kali can connect to the mail server
+![Capture](https://user-images.githubusercontent.com/81980702/116943227-c351dc00-ac38-11eb-8cd2-bc6d78a9725f.JPG)
+
+* ``Ctrl + C`` stops the device from continuously pinging 
+
+# Creating Vulnerable Servers
+* [vulnhub](www.vulnhub.com) has great "boot2root" challenges 
+
+* VMs are great for testing exploits or tools
+
+* **Hypervisor** and **cloudbursts** can run malware on your computer through a virtual machine
+
+
+
 
 
 
