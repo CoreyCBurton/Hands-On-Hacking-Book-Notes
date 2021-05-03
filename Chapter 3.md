@@ -60,10 +60,14 @@ Files sent with **HTTP** are sent in plain text while files with **HTTPS** are e
 
 * Advanced Encryption standard (AES) 
 
-# Setting up Mail server
+# Setting up Mail server and Booklab
 
 * Downloaded the [iso file](www.hackerhousebook.com/hh-mailserver-v1-i386.hybrid.iso) provided in the book which is the mail server. After downloaded it, the picture below is what you should see,
 >![Capture](https://user-images.githubusercontent.com/81980702/116940216-3f492580-ac33-11eb-941c-b9af647f4cbc.JPG)
+
+* The next VM is the book lab provded in the book. Here is [ISO](www.hackerhousebook.com/hh-booklab-v1-i386.hybrid.iso)
+> ![Capture1](https://user-images.githubusercontent.com/81980702/116941409-3c4f3480-ac35-11eb-9b41-8a00dbecea35.JPG)
+
 
 
 
