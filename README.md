@@ -11,6 +11,6 @@ My goal is to get the OSCP, and I need to start somewhere to understand the indu
 
 * [Chapter 2: Hacking Ethically and Legally](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%202.md)
 
-* [Chapter 3: Building YOur Hack Box](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%203.md)
+* [Chapter 3: Building Your Hack Box](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%203.md)
 
-* [Chapter 4: Open SOurce Intelligence Gathering](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%204.md)
+* [Chapter 4: Open Source Intelligence Gathering](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%204.md)
