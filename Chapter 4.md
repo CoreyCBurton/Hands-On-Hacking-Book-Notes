@@ -29,18 +29,28 @@
 
 # Summary of things to look for
 > Usernames, profile names and/or email addresses
-> Passwords (private keys, PINs, and so forth
+ 
+> Passwords (private keys, PINs, and so forth 
+
 > Domain names
+
 > Hostnames
+
 > IP addresses
+
 > Software and operating system types, names, and versions
+
 > Technial documentation
 
 # Where do you find info?
 > Personal websites; blogs
+
 > Alot of search engines
+
 > Social media; Linkedin, Facebook, Twitter, and Instagram
+
 > Github, Forums, newsgroups, and mailing lists
+
 > Public data basses such as ICANN and domain name registrars
 
 # OSINT tools
@@ -67,6 +77,8 @@
 * [Shodan](https://www.shodan.io/)
 
 * Various Domain Name System (DNS) utilites such as Dig, Host, Nslookup, and WHOIS
+
+
 
 
 
