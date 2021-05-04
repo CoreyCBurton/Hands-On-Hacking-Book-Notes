@@ -1,11 +1,16 @@
 # Penetration-Testing-Labs-And-Information
 # Introduction 
-To get a hands on introduction to pentesting, I am going to read through the book **Hands on Hacking: Become an Expert at Next Gen Penetration Testing and Purple Teaming** and follow through with the labs. This repo is going to document everything I have done.
+My goal is to get the OSCP, and I need to start somewhere to understand the indusrty. Hands on Hacking by Matthew Hickey and Jennifer Arcuri is a great start to learn basic concepts which will advance my interest and knowledge. 
 
 # Goals for this repo
-- Learn Kali linux 
-- Learn different operating systems and how they work
-- How to penetrate a vulnerable network
-- learn why an appliciaiton can be vulnerable
-
+- Key terms for pentesting
+- How you can hack ethically 
+- Different tools to understand 
 # Index
+* [Chapter 1: Hacking a Business Case](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%201.md)
+
+* [Chapter 2: Hacking Ethically and Legally](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%202.md)
+
+* [Chapter 3: Building YOur Hack Box](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%203.md)
+
+* [Chapter 4: Open SOurce Intelligence Gathering](https://github.com/CoreyCBurton/Penetration-Testing-Labs-And-Information/blob/main/Chapter%204.md)
