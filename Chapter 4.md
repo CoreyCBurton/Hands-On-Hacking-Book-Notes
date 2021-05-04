@@ -203,6 +203,55 @@ db insert profiles <UserName>~~~~
 coreycburton | GitHub          | https://github.com/coreycburton                 | coding       |       | profiler     |
 ```
 # Harvesting the Web
+* Run the command ``theHarvester`` to pull it up
+
+* using the command `` teHarvester -d google.com -b google -l 50`` this is what is returned below 
+```
+accounts.google.com:172.217.14.173                                                                                                                                                                                                                                                                    
+ad.corp.google.com                                                                                                                                                                                                                                                                                    
+adservice.google.com:172.217.9.130                                                                                                                                                                                                                                                                    
+adssettings.google.com:172.217.6.142                                                                                                                                                                                                                                                                  
+apis.google.com:142.250.68.142                                                                                                                                                                                                                                                                        
+books.google.com:216.58.194.78                                                                                                                                                                                                                                                                        
+classroom.google.com:172.217.6.142                                                                                                                                                                                                                                                                    
+desktop.google.com:142.250.138.104, 142.250.138.99, 142.250.138.147, 142.250.138.106, 142.250.138.105, 142.250.138.103                                                                                                                                                                                
+developer.google.com:172.217.9.142                                                                                                                                                                                                                                                                    
+maps.google.com:172.217.9.142                                                                                                                                                                                                                                                                         
+myactivity.google.com:142.250.138.138, 142.250.138.102, 142.250.138.100, 142.250.138.113, 142.250.138.139, 142.250.138.101                                                                                                                                                                            
+newfonts.google.com                                                                                                                                                                                                                                                                                   
+news.google.com:142.250.138.113, 142.250.138.100, 142.250.138.101, 142.250.138.138, 142.250.138.139, 142.250.138.102                                                                                                                                                                                  
+ogs.google.com:142.250.138.113, 142.250.138.139, 142.250.138.101, 142.250.138.100, 142.250.138.102, 142.250.138.138                                                                                                                                                                                   
+play.google.com:216.58.194.78                                                                                                                                                                                                                                                                         
+policies.google.com:142.250.68.174                                                                                                                                                                                                                                                                    
+sites.google.com:142.250.115.102, 142.250.115.113, 142.250.115.101, 142.250.115.100, 142.250.115.139, 142.250.115.138                                                                                                                                                                              
+support.google.com:172.217.2.238                                                                                                                                                                                                                                                                     
+www.google.com:142.250.138.147, 142.250.138.105, 142.250.138.106, 142.250.138.104, 142.250.138.99, 142.250.138.103     
+```
+Break down of flags
+```
+-d Domian
+-l limit
+```
+# Document Metadata 
+* Documents are very useful and finding anything related to the buisness is valuable
+
+* run ``install metagoofil`` to get **metagoofil** 
+
+* run command ``metagoofil -d uk.ibm.com -t doc,pdf -l 200 -n -o ibmfiles``
+
+* Alternative GUI tool is Fingerprinting Organizations with Collected Archives (FOCA) 
+
+* There is a more up to date version of [metagoofil](https://github.com/opsdisk/metagoofil)
+
+# Shodan
+* A search engine for IP-connected devices and maintains a database
+
+# Protecting against OSINT
+* Once information is out on the internet, it is hard to lock it down 
+
+* Companies should be aware of what can be accessed online 
+
+* Hackers have used this info to get easy wins into a company 
 
 
 
