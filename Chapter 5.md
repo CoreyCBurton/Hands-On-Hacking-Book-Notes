@@ -53,6 +53,20 @@
 
 - **Text(TXT)** - A simple text record, adds extra functions to DNS and stores information. Human readable notes  
 
+# BIND9 
+* To install **BIND9**, use the command ``sudo apt install bind9``. I have installed this onto my Ubuntu LTS server.
+
+* the commands below are listed to show where the config file is 
+
+```
+cd /etc/bind # This is the directory path 
+cat named.conf # to show what is in named.conf
+```
+* In ``named.conf`` it leads to another file which is ``named.conf.local`` 
+
+
+
+
 
 
 
