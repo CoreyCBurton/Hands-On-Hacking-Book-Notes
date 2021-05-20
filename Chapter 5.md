@@ -64,7 +64,38 @@ cat named.conf # to show what is in named.conf
 ```
 * In ``named.conf`` it leads to another file which is ``named.conf.local`` 
 
+# DNS Hacking Toolkit 
+* The three main tools used in the book is NMAP, Metasploit, and Wireshark 
 
+* Dig - A DNS querying tool
+
+* [NSlookup](https://www.nslookup.io/) - An alternative DNS querying tool 
+
+* [DNSrecon](https://tools.kali.org/information-gathering/dnsrecon) - A script for carrying out reconnaissance on a name server 
+
+* [DNSenum](https://tools.kali.org/information-gathering/dnsenum) - A tool for enumerating infromation from a name server 
+
+* [Fierce](https://tools.kali.org/information-gathering/fierce) - A name server server scanning tool, similar to Dnsrecon and DNSenum 
+
+* Host - Another DNS querying tool
+
+* [WHOIS](https://www.whois.net/) - The name of a protocol and tool for querying information
+
+* DNSspoof - A tool for spoofing DNS packets
+
+* Dsniff - A tool for sniffing DNS caches and packets 
+
+* Hping3 - A tool for creatinng and injecting custom packets useful in many scenarios 
+
+* [Scapy](https://scapy.readthedocs.io/en/latest/installation.html) - A packet injection tool 
+
+* [Nmap](https://nmap.org/) - a port scanner for scanning any host and returning useful information
+
+* [Searchsploit](https://www.exploit-db.com/searchsploit) - A tool for searching for known exploit scripts and information 
+
+* [MSFconsole](https://www.offensive-security.com/metasploit-unleashed/msfconsole/) - Command line tool that is part of the populat metasploit penetration testing framework
+
+* [Wireshark](https://www.wireshark.org/) - A tool for inspecting packets on your network 
 
 
 
