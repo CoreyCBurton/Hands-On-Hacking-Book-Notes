@@ -97,7 +97,12 @@ cat named.conf # to show what is in named.conf
 
 * [Wireshark](https://www.wireshark.org/) - A tool for inspecting packets on your network 
 
+# WHOIS 
+* A protocol used for quering domain name and IP address information. This is apart of OSINT work 
 
+* using command `` whois hacker.house `` information can be pulled up about the domain. 
+
+* Guessing domains can be easy, engineers create common domain names to make life easier. 
 
 
 
