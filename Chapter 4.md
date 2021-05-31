@@ -101,7 +101,7 @@ company's external threat landscape on the internet. The tool gathers emails, na
 - Using command ``python2 goog-mail.py uk.ibm.com`` we can pull some email addresses. 
   - **Please note** - It is using python2 while the most up to date is python 3 
   - The screenshot below is the emails that were gathered.
-  - [Capture](https://user-images.githubusercontent.com/81980702/116955410-11c2a300-ac58-11eb-8505-fd3d74948250.JPG)
+  - ![Capture](https://user-images.githubusercontent.com/81980702/116955410-11c2a300-ac58-11eb-8505-fd3d74948250.JPG)
 
 - This method can be used for bots to send spam, it can gather easy targets.
 
