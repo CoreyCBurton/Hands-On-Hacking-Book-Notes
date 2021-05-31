@@ -140,18 +140,20 @@ company's external threat landscape on the internet. The tool gathers emails, na
   - You can automate the process with a script and add a pause. Then using ``grep``, we can then access what we gathered. 
 
 # OSINT Framework Recon-ng
-* [Recon-ng](https://github.com/lanmaster53/recon-ng) developed by LaNMaSteR53 is a module-based framework that is user-friendly
-
-* for Recon-ng to communicate effectively, importing API keys is crucial 
+- [Recon-ng](https://github.com/lanmaster53/recon-ng) developed by LaNMaSteR53 is a module-based framework that is user-friendly
+   - for Recon-ng to communicate effectively, importing API keys is crucial 
 
 # Create a workspace in recon-ng
-* a work space called hackerhouse can be created using ``workspaces create hackerhouse``
+- Launch recon-ng by typing ``recon-ng`` in Kali Linux.
 
-* Any intel will be gathered in that workspace, using command ``workspace list``, you can see what is added 
+- The first thing to is create a workspace. 
+  - In the example in the book, the create one called hackerhouse using command``workspaces create hackerhouse``
 
-* ``marketplace install all`` will download different modules 
+- Any intel will be gathered in that workspace, using command ``workspace list``, you can see what is added 
+  - ``marketplace install all`` will download different modules, this will be needed to use recon-ng 
 
-* Loading in, there are intimidating red messages as shown below
+- Loading in, there are intimidating red messages as shown below
+  - No need to worry, this is common. You will need to add the API for those.
 ```
 [!] Module 'recon/companies-hosts/censys_org' disabled. Dependency required: ''censys''.
 [!] Module 'recon/companies-hosts/censys_tls_subjects' disabled. Dependency required: ''censys''.
@@ -162,14 +164,14 @@ company's external threat landscape on the internet. The tool gathers emails, na
 [!] 'ipinfodb_api' key not set. ipinfodb module will likely fail at runtime. See 'keys add'.
 [!] 'ipstack_api' key not set. ipstack module will likely fail at runtime. See 'keys add'.
 ```
-* For those you have to add the api
-
-* ``Modules search`` brings up a list with discovery, Exploitation, Import, and Recon
+- Command``Modules search`` brings up a list with discovery, Exploitation, Import, and Recon.
+  - This is used to explore. 
 
 # Profiler module 
-* using the command ``modules load recon/profiles-profiles/profiler``
+- Using the command ``modules load recon/profiles-profiles/profiler``, This pulls up the recon option to search for profiles. 
 
-* after loading in the module and typing in ``info``, this is what is brought up
+- After loading in the module and typing in ``info``, this is what is brought up
+  - This is useful to find any information about the recon selected. 
 ```
 Name: OSINT HUMINT Profile Collector
     Author: Micah Hoffman (@WebBreacher)
@@ -195,13 +197,15 @@ Comments:
   * Warning: Using this module behind a filtering proxy may cause false negatives as some of these
   sites may be blocked.
 ```
-* This is a profile collector 
 
-* you can call the profiles using the command ``show profiles`` but it will be blank. Use the command below to add 
+- you can call the profiles using the command ``show profiles``.
+  - It will be blank because we havent added anyone to search. 
+  - Use the command below to add a user
 ```
 db insert profiles <UserName>~~~~
 ```
-* after that using command ``show profiles`` it returns 
+- after that using command use``show profiles`` 
+  - It shows the interface of what is returned below to search
 ```
 +---------------------------------------------------------------------+
   | rowid | username | resource | url | category | notes |    module    |
@@ -209,16 +213,17 @@ db insert profiles <UserName>~~~~
   | 1     | CoreyCburton |          |     |        |  | user_defined |
 +---------------------------------------------------------------------+
 ```
-* Once that is selected, type ``run`` and it will began the search
+- Once that is selected, type ``run`` and it will began the search
 
-* The username database can bring alot of information om certain websites. Below shows what the profiler returned with my username
+- The username database can bring alot of information on certain websites.
+  -  Below shows what the profiler returned with my username 
 ```
 coreycburton | GitHub          | https://github.com/coreycburton                 | coding       |       | profiler     |
 ```
 # Harvesting the Web
-* Run the command ``theHarvester`` to pull it up
+- Run the command ``theHarvester`` 
 
-* using the command `` teHarvester -d google.com -b google -l 50`` this is what is returned below 
+- using the command `` teHarvester -d google.com -b google -l 50`` this is what is returned below 
 ```
 accounts.google.com:172.217.14.173                                                                                                                                                                                                                                                                    
 ad.corp.google.com                                                                                                                                                                                                                                                                                    
@@ -240,31 +245,27 @@ sites.google.com:142.250.115.102, 142.250.115.113, 142.250.115.101, 142.250.115.
 support.google.com:172.217.2.238                                                                                                                                                                                                                                                                     
 www.google.com:142.250.138.147, 142.250.138.105, 142.250.138.106, 142.250.138.104, 142.250.138.99, 142.250.138.103     
 ```
-Break down of flags
+- Break down of flags
 ```
 -d Domian
 -l limit
 ```
 # Document Metadata 
-* Documents are very useful and finding anything related to the buisness is valuable
+- Documents are very useful and finding anything related to the buisness is valuable
 
-* run ``install metagoofil`` to get **metagoofil** 
+- run ``install metagoofil`` to get **metagoofil** 
+  - run command ``metagoofil -d uk.ibm.com -t doc,pdf -l 200 -n -o ibmfiles``, this will install everything it can on the website.
+  - Alternative GUI tool is Fingerprinting Organizations with Collected Archives (FOCA) 
 
-* run command ``metagoofil -d uk.ibm.com -t doc,pdf -l 200 -n -o ibmfiles``
-
-* Alternative GUI tool is Fingerprinting Organizations with Collected Archives (FOCA) 
-
-* There is a more up to date version of [metagoofil](https://github.com/opsdisk/metagoofil)
+- There is a more up to date version of [metagoofil](https://github.com/opsdisk/metagoofil)
 
 # Shodan
-* A search engine for IP-connected devices and maintains a database
+- A search engine for IP-connected devices and maintains a database
 
 # Protecting against OSINT
-* Once information is out on the internet, it is hard to lock it down 
-
-* Companies should be aware of what can be accessed online 
-
-* Hackers have used this info to get easy wins into a company 
+- Once information is out on the internet, it is hard to lock it down 
+  - Companies should be aware of what can be accessed online 
+  - Hackers have used this info to get easy wins into a company 
 
 
 
