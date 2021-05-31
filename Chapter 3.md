@@ -2,7 +2,7 @@
 - Full customization and can be built up from no binary components. 
   - Allows you to review precisely what your computer has been instructed to do in source code form.
 
--it is complicated for a new user
+- it is complicated for a new user
   - Alot of time to learn source code 
 
 # Arch Linux
@@ -82,7 +82,7 @@ sha256sum <PathToFile>
   - ``Ctrl + C`` stops the device from continuously pinging 
 
 # Creating Vulnerable Servers
-- [vulnhub](www.vulnhub.com) has great "boot2root" challenges 
+- [Vulnhub](www.vulnhub.com) has great "boot2root" challenges 
   - VMs are great for testing exploits or tools
   - **Hypervisor** and **cloudbursts** can run malware on your computer through a virtual machine 
 
