@@ -1,41 +1,37 @@
-# Operating systems
 # Gentoo Linux 
-* Full customization and can be built up from no binary components. 
+- Full customization and can be built up from no binary components. 
+  - Allows you to review precisely what your computer has been instructed to do in source code form.
 
-* Allows you to review precisely what your computer has been instructed to do in source code form.
-
-* It is complicated for a new user; Alot of time to learn source code 
+-it is complicated for a new user
+  -Alot of time to learn source code 
 
 # Arch Linux
-* A hybrid of Gentoo like power and Debian like stability
+- A hybrid of Gentoo like power and Debian like stability
+  - Still has some capability of source code components 
 
-* Still has some capability of source code components 
-
-* Highy customizable but all done though the linux command line
+- Highy customizable, but all done though the linux command line
 
 # Debian 
-* Easy config
+- Easy config
 
-* Stable; fast security updates
+- Stable; fast security updates
 
-* Kali Linux uses this 
+- Kali Linux uses this 
 
 # Ubuntu
-* Easy for beginners; similar to macOS
-
-* Everything seems to work on Ubuntu such as drivers.
+- Easy for beginners; similar to macOS
+  - Everything seems to work on Ubuntu such as drivers.
 
 # Kali Linux 
-* Install on a VM; not a host os 
-
-* Use for the labs in this book 
+- Install on a VM; not a host os 
+  -  Use for the labs in this book 
 
 # Verify Downloads
-Use the command below to allow ```sha256sum``` on mac os. 
+- Use the command below to allow ```sha256sum``` on mac os. 
 ```
 function sha256sum() { shasum -a 256 "$@" ; } && export -f sha256sum
 ```
-To verify files to compare hashes use 
+  - To verify files to compare hashes use 
 ```
 sha256sum <PathToFile>
 ```
