@@ -3,7 +3,7 @@
   - Allows you to review precisely what your computer has been instructed to do in source code form.
 
 -it is complicated for a new user
-  -Alot of time to learn source code 
+  - Alot of time to learn source code 
 
 # Arch Linux
 - A hybrid of Gentoo like power and Debian like stability
@@ -35,34 +35,35 @@ function sha256sum() { shasum -a 256 "$@" ; } && export -f sha256sum
 ```
 sha256sum <PathToFile>
 ```
-Files sent with **HTTP** are sent in plain text while files with **HTTPS** are encrypted.
+- Files sent with **HTTP** are sent in plain text 
+  - Files sent with **HTTPS** are encrypted.
 
 # Disk Encryption 
-* It is important to have your files encrypted
+- It is important to have your files encrypted
 
-* On macOS, filevault is used and it is important that it is turned 
+- On macOS, filevault is used and it is important that it is turned 
+  - It is impossilbe to have your whole SSD encrypted unless it is established at start up
 
-* It is impossilbe to have your whole SSD encrypted unless it is established at start up
-
-* You can decrypt folder but it only shows the hacker that there is sensitive data there
+- You can have a encrypted folder but it shows the hacker that there is sensitive data there. 
+  - They will target folder
 
 # Password managers 
-* [1password](https://1password.com/)
+- [1password](https://1password.com/)
 
-* [keepassx](https://www.keepassx.org/)
+- [keepassx](https://www.keepassx.org/)
 
 # Email 
-* It is important to send encrypted emails espically if it is a lab report to one of your clients. 
-
-* Advanced Encryption standard (AES) 
+- It is important to send encrypted emails espically if it is a lab report to one of your clients. 
+  - Advanced Encryption standard (AES) should be used
 
 # Setting up Mail server and Booklab
 
-* Downloaded the [iso file](www.hackerhousebook.com/hh-mailserver-v1-i386.hybrid.iso) provided in the book which is the mail server. After downloaded it, the picture below is what you should see,
->![Capture](https://user-images.githubusercontent.com/81980702/116940216-3f492580-ac33-11eb-941c-b9af647f4cbc.JPG)
+- Downloaded the [iso file](www.hackerhousebook.com/hh-mailserver-v1-i386.hybrid.iso) provided in the book which is the mail server. 
+  - After it is downloaded, the picture below is what you should see,
+![Capture](https://user-images.githubusercontent.com/81980702/116940216-3f492580-ac33-11eb-941c-b9af647f4cbc.JPG)
 
-* The next VM is the book lab provded in the book. Here is the [ISO](www.hackerhousebook.com/hh-booklab-v1-i386.hybrid.iso) and the picture below is the booklab running
-> ![Capture1](https://user-images.githubusercontent.com/81980702/116941409-3c4f3480-ac35-11eb-9b41-8a00dbecea35.JPG)
+- The next VM is the book lab provded in the book. Here is the [ISO](www.hackerhousebook.com/hh-booklab-v1-i386.hybrid.iso) and the picture below is the booklab running
+![Capture1](https://user-images.githubusercontent.com/81980702/116941409-3c4f3480-ac35-11eb-9b41-8a00dbecea35.JPG)
 
 # Installing guest additions
 * On VirtualBox, go to devices > Insert Guest Additions CD image 
