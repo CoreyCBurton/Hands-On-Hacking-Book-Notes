@@ -95,11 +95,13 @@ company's external threat landscape on the internet. The tool gathers emails, na
   - WHOIS
 
 # Grabbing Email Addresses from Google 
-* Download [goog-mail.py](www.hackerhousebook.com/files/goog-mail.py) or using the script ``wget --user=student --password=student www.hackerhousebook.com/files/goog-mail.py``
+- Download [goog-mail.py](www.hackerhousebook.com/files/goog-mail.py)  
+  - You can also use the command``wget --user=student --password=student www.hackerhousebook.com/files/goog-mail.py`` to get it.
 
-* using command ``python2 goog-mail.py uk.ibm.com`` we can pull some email addresses. There is nothing I am going to do with these email addresses, It is just querying public data.
+- Using command ``python2 goog-mail.py uk.ibm.com`` we can pull some email addresses. 
+  - **Please note** - It is using python2 while the most up to date is python 3 
 
->![Capture](https://user-images.githubusercontent.com/81980702/116955410-11c2a300-ac58-11eb-8505-fd3d74948250.JPG)
+![Capture](https://user-images.githubusercontent.com/81980702/116955410-11c2a300-ac58-11eb-8505-fd3d74948250.JPG)
 
 * This method can be used for bots to send spam, it can gather easy targets.
 
