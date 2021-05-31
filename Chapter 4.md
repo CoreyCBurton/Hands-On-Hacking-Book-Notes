@@ -1,11 +1,11 @@
 # Open Source Intelligence Gathering
 - Hackers look for many things through open source intelligence such as 
- - domain names
- - hostnames
- - IP addresses
- - URLs
- - email addresses
- - potential passwords
+  - domain names
+  - hostnames
+  - IP addresses
+  - URLs
+  - email addresses
+  - potential passwords
 
 - Public information makes it easy for hackers to find certain knowledge 
   - It is open source, it is free to obtain 
