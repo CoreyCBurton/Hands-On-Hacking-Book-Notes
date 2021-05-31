@@ -1,33 +1,33 @@
-# The Domain Name System 
 # Implications of Hacking DNS
-* Companies rely on name servers to provide answers to queries such as the ip address of www.yourcompany.com
+- Companies rely on name servers to provide answers to queries such as the ip address of www.yourcompany.com
+  - Distributed denial-of-service (DDOS) attacks are commmon against a DNS
 
-* Distributed denial-of-service (DDOS) attacks 
-
-* You can send customers false details aboute sites and lead them to a false one
+ - You can send customers false details aboute sites and lead them to a false one with poisioning techniques
 
 # A Brief History of DNS
-* Standford Research Institute became the offical source file that contained the names of IP addreses conned to the ARPANET. Now it is on the Domain Name System, a global decentralized database 
+- Standford Research Institute became the offical source file that contained the names of IP addreses conned to the ARPANET.
+  - Now it is on the Domain Name System, a global decentralized database 
 
 # The DNS Hierarchy
-* It stores information to serve information when requested
+- It stores information to serve information when requested
 
-* root name server store .com,.net,and .org. It does not give you IP but it does point you in the right direction
+- root name server stores .com,.net,and .org.
+  - It does not give you IP but it does point you in the right direction
 
-* The domain system is similar to a directory like ``/home/donnyg/Downloads``. A dot represents the roots level and further along the directories while moving foward.
+- The domain system is similar to a directory like ``/home/donnyg/Downloads``. 
+  - A dot represents the roots level and further along the directories while moving foward.
 
-# A BAsic DNS Query
-* When you type in a domain name like ``duckduckgo.com``, the OS will try to resolve the domain name which is the IP address. If there is no cached answer, it will be sent to the local network
+# A Basic DNS Query
+- When you type in a domain name like ``duckduckgo.com``, the OS will try to resolve the domain name which is the IP address. 
+  - If there is no cached answer, it will be sent to the local network
+  - It will then be sent to the DNS server which will then be sent to your ISP.
 
-* It will then be sent to the DNS server which will then be sent to your ISP.
+- The ISP has the cached answer; most likely someone has visted it before
+  - If the ISP does not have it cached in a .com server, then it will ask one of the **Root Name Servers**
 
-* ISP has the cached answer; most likely someone has visted it before
+- check out on virtual box ftp://rs.internic.net/domain/named.root
 
-* If the ISP does not have it cached in a .com server, then it will ask one of the **Root Name Servers**
-
-* check out ftp://rs.internic.net/domain/named.root
-
-* Your isp will quiery duckduckgo and get ``ns-175-awsdns-21.com``. The ip address is then sent to a final query and receives the IP address. 
+- Your isp will quiery duckduckgo and get ``ns-175-awsdns-21.com``. The ip address is then sent to a final query and receives the IP address. 
 
 # Authority and Zones
 * the Start of Authority (SOA) for ``duckduckgo.com`` is responsible for domains only within ``duckduckgo.com``
