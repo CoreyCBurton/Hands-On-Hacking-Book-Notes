@@ -1,82 +1,98 @@
 # Open Source Intelligence Gathering
-* Hackers look for domain names, hostnames, IP addresses, URLs, email addresses, and potential passwords
+- Hackers look for many things through open source intelligence such as 
+ - domain names
+ - hostnames
+ - IP addresses
+ - URLs
+ - email addresses
+ - potential passwords
 
-* Public information makes it easy for hackers to find certain knowledge 
+- Public information makes it easy for hackers to find certain knowledge 
+  - It is open source, it is free to obtain 
 
-* It is open source, it is free to obtain 
-
-* **OSINT** assessment is important 
+- **OSINT** assessment is important 
 
 # Does Your Client Needs an OSINT Review?
-* Only if the client asks for it 
+- Only if the client asks for it 
 
-* Some clients asks for an indepth to make sure their social media is clear among the board. 
+- Some clients asks for an indepth to make sure their social media is clear among the board. 
 
-* Using DuckDuckGO, Bing, or Google, you are not actually sending any data to the target company. It is querying a database 
+- Using DuckDuckGO, Bing, or Google, you are not actually sending any data to the target company.
+  - It is querying a database 
 
-* You cannot blindly trust information you find. 
+- You cannot blindly trust information you find. 
 
 # What are you looking for?
-* To obtain information that will assist you in carrying out an attack in order to gain access to a computer system 
+- To obtain information that will assist you in carrying out an attack in order to gain access to a computer system 
+  - Find hosts with a public facing IP 
 
-* Find hosts with a public facing IP 
+- Lookout for... 
+  - a VPN portal
+  - Mail servers
+  - web servers
+  - database servers
+  - Linux machines
+  - UNIX machines
+  - Windows boxes, 
+  - Internet of things (IoT) devices. 
 
-* Lookout for a VPN portal, Mail servers, web servers, database servers, Linux machines, UNIX machines, Windows boxes, IoT devices. 
-
-* Bulid up target IP addresses, hostnames. and domain names. 
-
-* Never limit yourself to a single database
+- Bulid up target IP addresses, hostnames. and domain names. 
+  - Never limit yourself to a single database
 
 # Summary of things to look for
-> Usernames, profile names and/or email addresses
- 
-> Passwords (private keys, PINs, and so forth 
-
-> Domain names
-
-> Hostnames
-
-> IP addresses
-
-> Software and operating system types, names, and versions
-
-> Technial documentation
+- Usernames, profile names and/or email addresses
+  - Passwords (private keys, PINs, and so forth 
+  - Domain names, Hostnames, IP addresses
+  - Software and operating system types, names, and versions
+  - Technial documentation
 
 # Where do you find info?
-> Personal websites; blogs
-
-> Alot of search engines
-
-> Social media; Linkedin, Facebook, Twitter, and Instagram
-
-> Github, Forums, newsgroups, and mailing lists
-
-> Public data basses such as ICANN and domain name registrars
+- Personal websites; blogs
+- Alot of search engines
+- Social media; Linkedin, Facebook, Twitter, and Instagram
+- Github, Forums, newsgroups, and mailing lists
+= Public data basses such as ICANN and domain name registrars
 
 # OSINT tools
-* [Search engines](google.com)
+- [Search engines](google.com)
+   - Basic search engine that a hacker can use 
 
-* [Goog-mail.py](https://github.com/leebaird/discover/blob/master/mods/goog-mail.py)
+- [Goog-mail.py](https://github.com/leebaird/discover/blob/master/mods/goog-mail.py) 
+   - Python script for scraping email address from Google's cached pages from a domain.
 
-* Application programming interfaces for public databases
+- Application programming interfaces for public databases
  
-* [Recon-ng](https://github.com/lanmaster53/recon-ng)
+- [Recon-ng](https://github.com/lanmaster53/recon-ng)
+   - Recon-ng is a full-featured reconnaissance framework designed with the goal of providing a powerful environment to conduct open source web-based reconnaissance quickly and thoroughly. 
  
-* [TheHarvester](https://github.com/laramies/theHarvester/stargazers)
+- [TheHarvester](https://github.com/laramies/theHarvester/stargazers)
+   - Open source intelligence (OSINT) gathering to help determine a
+company's external threat landscape on the internet. The tool gathers emails, names, subdomains, IPs and URLs using
 
-* [FOCA](https://github.com/ElevenPaths/FOCA)
+- [FOCA](https://github.com/ElevenPaths/FOCA)
+   - FOCA is a tool used mainly to find metadata and hidden information in the documents it scans. These documents may be on web pages, and can be downloaded and analysed with FOCA. 
 
-* [Metagoofil](https://tools.kali.org/information-gathering/metagoofil)
+- [Metagoofil](https://tools.kali.org/information-gathering/metagoofil)
+   - Metagoofil will perform a search in Google to identify and download the documents to local disk and then will extract the metadata with different libraries
 
-* [Exiftool](https://exiftool.org/)
+- [Exiftool](https://exiftool.org/)
+   - ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files
 
-* [Maltego CE](https://www.maltego.com/products/)
+- [Maltego CE](https://www.maltego.com/products/)
+  - The Maltego Desktop Client is the visual interface in which all gathered information is linked and combined
+  - Maltego allows users to create graphs step-by-step in an intuitive point-and-click logic
 
-* Linkedint
+- Linkedint
+  - Script of Linkedin
 
-* [Shodan](https://www.shodan.io/)
+- [Shodan](https://www.shodan.io/)
+   - Shodan is the world's first search engine for Internet-connected devices. Discover how Internet intelligence can help you make better decisions.
 
-* Various Domain Name System (DNS) utilites such as Dig, Host, Nslookup, and WHOIS
+- Various Domain Name System (DNS) utilites 
+  - Dig
+  - Host
+  - Nslookup
+  - WHOIS
 
 # Grabbing Email Addresses from Google 
 * Download [goog-mail.py](www.hackerhousebook.com/files/goog-mail.py) or using the script ``wget --user=student --password=student www.hackerhousebook.com/files/goog-mail.py``
