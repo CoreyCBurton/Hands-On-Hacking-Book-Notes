@@ -31,7 +31,7 @@
 ```
 function sha256sum() { shasum -a 256 "$@" ; } && export -f sha256sum
 ```
-  - To verify files to compare hashes use 
+- To verify files to compare hashes use 
 ```
 sha256sum <PathToFile>
 ```
@@ -58,34 +58,33 @@ sha256sum <PathToFile>
 
 # Setting up Mail server and Booklab
 
-- Downloaded the [iso file](www.hackerhousebook.com/hh-mailserver-v1-i386.hybrid.iso) provided in the book which is the mail server. 
-  - After it is downloaded, the picture below is what you should see,
+- Download the [iso file](www.hackerhousebook.com/hh-mailserver-v1-i386.hybrid.iso) provided in the book which is the mail server. 
+  - After it is downloaded, the picture below is what you should see
 ![Capture](https://user-images.githubusercontent.com/81980702/116940216-3f492580-ac33-11eb-941c-b9af647f4cbc.JPG)
 
-- The next VM is the book lab provded in the book. Here is the [ISO](www.hackerhousebook.com/hh-booklab-v1-i386.hybrid.iso) and the picture below is the booklab running
+- Download the [iso file](www.hackerhousebook.com/hh-booklab-v1-i386.hybrid.iso) provided in the book which is the book lab. 
+  - After it is downloaded, the picture below is what you should see
 ![Capture1](https://user-images.githubusercontent.com/81980702/116941409-3c4f3480-ac35-11eb-9b41-8a00dbecea35.JPG)
 
 # Installing guest additions
-* On VirtualBox, go to devices > Insert Guest Additions CD image 
+- On VirtualBox, go to devices > Insert Guest Additions CD image 
+  - This allows the VM to be seen in FUll Screen and add other features
 
-* This allows the VM to be seen in FUll Screen and add other features
-
-* In some VMs the virtual CD is mounted to ``/media/cdrom0``
+- In some VMs the virtual CD is mounted to ``/media/cdrom0``
 
 # Testing Virtual Environment 
-* The mail server ip is ``192.168.1.108`` 
+- The mail server ip is ``192.168.1.108`` 
 
-* Using Kali Linux, I can ping the mail server using ``ping <TargetIP>`` and receive some feedback. The image below shows that Kali can connect to the mail server
+- Using Kali Linux, the user can ping the mail server using ``ping <TargetIP>`` and receive some feedback. 
+  - The image below shows that Kali can connect to the mail server
 ![Capture](https://user-images.githubusercontent.com/81980702/116943227-c351dc00-ac38-11eb-8cd2-bc6d78a9725f.JPG)
 
-* ``Ctrl + C`` stops the device from continuously pinging 
+  - ``Ctrl + C`` stops the device from continuously pinging 
 
 # Creating Vulnerable Servers
-* [vulnhub](www.vulnhub.com) has great "boot2root" challenges 
-
-* VMs are great for testing exploits or tools
-
-* **Hypervisor** and **cloudbursts** can run malware on your computer through a virtual machine
+- [vulnhub](www.vulnhub.com) has great "boot2root" challenges 
+  - VMs are great for testing exploits or tools
+  - **Hypervisor** and **cloudbursts** can run malware on your computer through a virtual machine 
 
 
 
